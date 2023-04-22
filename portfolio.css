@@ -29,7 +29,7 @@ body {
     position: absolute;
     /* display: flex; */
     margin-left: 100px;
-    margin-top: 200px;
+    margin-top: 125px;
 }
 
 .profile {
@@ -130,36 +130,44 @@ body {
 
 .logos1 {
     padding-top: 5%;
-    
+
 }
+
 .logos2 {
     padding-top: 5%;
-    
+
 }
-.html{
+
+.html {
     width: 50%;
     height: 10%;
 }
-.css{
+
+.css {
     width: 45%;
     height: 10%;
 }
-.boot{
+
+.boot {
     width: 50%;
     height: 10%;
 }
-.mongo{
+
+.mongo {
     width: 50%;
     height: 10%;
 }
-.exp{
+
+.exp {
     width: 50%;
     height: 10%;
 }
-.ang{
+
+.ang {
     width: 50%;
     height: 10%;
 }
+
 .slide4 {
     background-color: rgb(223, 230, 235);
     /* background-image: url(./images/slide4.jpg); */
@@ -169,4 +177,52 @@ body {
     position: relative;
     border-bottom: 1px black solid;
 
+}
+
+.project {
+    /* position: absolute; */
+    /* margin-top: 6%; */
+    text-align: center;
+}
+
+#prjct {
+    width: auto;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Source Serif Pro', serif;
+    color: rgb(150, 160, 140);
+    text-shadow: 3px 3px black;
+    padding-top: 6%;
+}
+
+.wrks {
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.slide5 {
+    background-image: url(./images/slide3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    /* position: relative; */
+    border-bottom: 1px black solid;
+
+}
+.cntct{
+    /* position: absolute; */
+    padding-top: 6%;
+}
+#contact {
+    text-align: center;
+    width: auto;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Source Serif Pro', serif;
+    color: rgb(150, 160, 140);
+    text-shadow: 3px 3px black;
+
+}
+.sbmt{
+    margin-left: 80%;
 }

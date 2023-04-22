@@ -8,6 +8,7 @@
   <title>AswinKB</title>
   <link rel="stylesheet" href="./portfolio.css">
   <link rel="stylesheet" href="./responsive.css">
+  <link rel="stylesheet" href="./images.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
@@ -17,22 +18,29 @@
 </head>
 
 <body>
-  <nav class="navbar fs-5 sticky-top navbar-expand-lg ">
+  <nav class="navbar fs-5 sticky-top navbar-expand-lg " style="position: sticky;">
     <div class="topbar container-fluid">
 
       <ul class="navbar-nav icons me-auto mb-2 mb-lg-0">
 
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a class="nav-link " aria-current="page" href="https://www.facebook.com/aswin.manigvr"><i
+              class="fa-brands fa-facebook"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a class="nav-link" href="https://www.linkedin.com/in/aswin-k-b-511043181"><i
+              class="fa-brands fa-linkedin"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link "><i class="fa-brands fa-github"></i></a>
+          <a class="nav-link " href="https://github.com/Aswinkb"><i class="fa-brands fa-github"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#"><i class="fa-brands fa-instagram"></i></i></a>
+          <a class="nav-link " aria-current="page" href="https://www.instagram.com/aswin_k_b/"><i
+              class="fa-brands fa-instagram"></i></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="tel:+91-9746853806"><i class="fa-solid fa-phone"></i></i></a>
+
         </li>
       </ul>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
@@ -51,9 +59,9 @@
           <li class="nav-item">
             <a class="nav-link " href="#">Projects</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link " href="#">Experience</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link " href="#">Contact</a>
           </li>
@@ -114,8 +122,63 @@
     </div>
   </div>
   <div class="slide4">
-    <div class="project">
-      
+    <div class="project w-100 container">
+      <h1 id="prjct">Projects</h1>
+      <div class="row wrks w-100 container container-fluid">
+        <div class="col-4">
+          <div class="card">
+            <a href="https://aswinkb.github.io/luminarclone/">
+              <img src="./images/luminar.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text">Here is clone of Luminar website created using HTML5,CSS3 & BootstrapV5.3</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <a href="https://aswinkb.github.io/project1netflix/">
+              <img src="./images/netflix.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text">Here is clone of Netflix created using HTML5 & CSS3 </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <a href="https://aswinkb.github.io/gallery/">
+              <img src="./images/gallery.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text">Here is a movie gallery website created using HTML5 & CSS3 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide5">
+    <div class="cntct w-50 container ">
+      <h1 id="contact">Contact me</h1>
+      <div class=" ">
+        <label class="fs-5" for="">Name</label><br>
+        <div class="input-group mt-2">
+          <input class="border border-dark form-control" type="text" placeholder="First">
+          <input class="ms-5 border border-dark form-control" type="text" placeholder="Last"><br><br>
+        </div>
+
+        <label class="fs-5 mt-5 " for="p3">Phone</label><br>
+        <input class="mt-2 form-control border border-dark" type="text" id="p3" placeholder="##########"><br><br>
+
+        <label class="fs-5" for="t1">Email</label><br>
+        <input class="border border-dark mt-2 form-control" type="email" id="t1"><br>
+        <hr>
+      </div>
+      <button type="button" class="sbmt btn btn-danger">Submit</button>
     </div>
   </div>
 </body>
